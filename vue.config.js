@@ -5,24 +5,12 @@ module.exports = {
         open: true,
         port: 8005,
         proxy: {
-            '/org': {
-                target: 'http://192.168.1.2:30056'
-            },
-            '/user': {
-                target: 'http://192.168.1.2:30056'
-            },
-            '/base': {
-                target: 'http://192.168.1.2:30056'
-            },
-            '/access': {
-                target: 'http://192.168.1.2:30056'
-            },
-            '/system': {
+            '/dev': {
                 target: 'http://192.168.1.2:30056'
             }
         }
     },
-    publicPath: '/sceneMonitor',
+    publicPath: '/webDemo',
     runtimeCompiler: true,
     chainWebpack: config => {
         config.node

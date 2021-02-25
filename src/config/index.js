@@ -9,11 +9,11 @@ export const socketHost = ''
 // currentType
 export const currentType = 'WEB'
 // cachePrefix
-export const cachePrefix = 'ZC_SCENE_MONITOR_'
+export const cachePrefix = 'WEB-DEMO'
 // marketHost
-export const marketHost = 'http://localhost:8000/marker/#'
+export const marketHost = ''
 // usercenterHost
-export const usercenterHost = 'http://localhost:8002/usercenter/#'
+export const usercenterHost = ''
 
 export const headers = [
     'userId',
